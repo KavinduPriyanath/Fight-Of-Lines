@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#17243e"><title>Fight of Lines</title><link rel="stylesheet" href="style.css"></head>
+<body><div id="app">
+  <header class="top"><div class="player red"><b id="enemyName">PLAYER 2</b><div class="avatars" id="enemyAvatars"></div><small>🏆 <span id="enemyTrophies">0</span></small></div><div class="round"><strong>FIGHT <i>OF</i> LINES</strong><span id="phaseLabel">DEPLOY</span><b id="turnCount">0 / 40</b></div><div class="player blue"><b id="playerName">PLAYER 1</b><div class="avatars" id="playerAvatars"></div><small>🏆 <span id="playerTrophies">0</span></small></div></header>
+  <main><div class="arena-wrap"><canvas id="arena" aria-label="Battlefield"></canvas><div id="toast" class="toast"></div></div></main>
+  <footer><div id="hint" class="hint">Place your team in your half of the arena.</div><button id="shoot" class="shoot" hidden>⚡ SHOOT</button><div class="cards" id="cards"></div></footer>
+  <div class="overlay" id="overlay"><div class="panel"><div class="eyebrow">TURN BASED DUEL</div><h1 id="overlayTitle">FIGHT<br><em>OF LINES</em></h1><p id="overlayText">Deploy four fighters, line up your shots, and outlast your rival.</p><button id="overlayButton">START MATCH</button><div class="rules">2 players · one device · 40 turns maximum</div></div></div>
+</div><script src="game.js"></script></body></html>
